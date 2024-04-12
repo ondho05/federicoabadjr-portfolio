@@ -1,0 +1,123 @@
+.home {
+    position: relative;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+    
+.intro {
+    max-width: 540px;
+    text-align: center;
+    z-index: 1;
+}
+
+.home__img {
+    margin-bottom: 1.5rem;
+}
+
+.home__name {
+    font-size: var(--h1-font-size);
+    font-weight:var(--font-bold);
+    margin-bottom: 0.5rem;
+}
+
+.home__socials {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.75rem; 
+    margin: 1.5rem 0;
+}
+    
+.home__social-link {
+    color: var(--title-color);
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.fa-facebook:hover {
+    color: hsl(248, 82%, 50%);
+}
+
+.fa-salesforce:hover {
+    color: hsl(221, 72%, 62%);
+}
+
+.fa-youtube:hover {
+    color: hsl(3, 70%, 49%);
+}
+
+.fa-linkedin:hover {
+    color: hsl(247, 58%, 54%);
+}
+
+.fa-github:hover {
+    color: hsl(203, 10%, 49%);
+}
+
+.scroll__down {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 0;
+    width: 100%;
+}
+
+.home__education
+.home__scroll-name {
+    font-size: var(--small-font-size);
+}
+
+.home__scroll-name {
+    color: var(--title-color) !important;
+}
+
+.mouse {
+    border: 2px solid #454360;
+    display: block;
+    height: 1.6rem;
+    width: 1.25rem;
+    margin: auto;
+    margin-top: .75rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.wheel {
+    background-color: var(--title-color);
+    border-radius: 100%;
+    width: 0.25rem;
+    height: 0.25rem; 
+    position: absolute;
+    top: .5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: ani-mouse 2s linear infinite;
+}
+
+@keyframes ani-mouse {
+    0% {
+    top: 29%;
+    }
+    15% {
+    top: 50%;
+    }
+    50% {
+    top: 50%
+    }
+    100% {
+    top: 29%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .home__social-link {
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (max-width: 350px) { 
+
+    .home__container {
+        grid-template-columns: 1fr;
+    }
+}
