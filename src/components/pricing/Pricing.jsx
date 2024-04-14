@@ -7,34 +7,34 @@ import Image3 from "../../assets/price-3.svg";
 const Pricing = () => {
   return (
     <section className="pricing container section"> 
-      <h2 className="section__title">Pricing Plans</h2>
+      <h2 className="section__title">Certificate</h2>
         
       <div className="pricing__container grid">
 
-        <div className="pricing__item">
+        {/* <div className="pricing__item">
           <img src={Image1} alt="" className="pricing__img" /> <h3 className="pricing__plan">Basic</h3>
           <p className="pricing__title">A Simple option but powerful to manage your business</p> <p className="pricing__support">Email support</p> <h3 className="price">
             <em>$</em> 9 <span>Month</span>
           </h3>
           <a href="" className="btn">Get Started</a>
-        </div>
+        </div> */}
 
         <div className="pricing__item best">
-          <span className="badge">Recommended</span>
-          <img src={Image2} alt="" className="pricing__img" /> <h3 className="pricing__plan">Basic</h3>
-          <p className="pricing__title">A Simple option but powerful to manage your business</p> <p className="pricing__support">Email support</p> <h3 className="price">
-            <em>$</em> 9 <span>Month</span>
+          <span className="badge">Achievements</span>
+          <img src={Image2} alt="" className="pricing__img" /> <h3 className="pricing__plan">Computer System Servicing NCII</h3>
+          <p className="pricing__title">Arctech Global Institute Inc.</p> <p className="pricing__support">August 28, 2023</p> <h3 className="price">
+            <em></em> Passed 
           </h3>
-          <a href="" className="btn">Get Started</a>
+          <a href="" className="btn">View</a>
         </div>
 
-        <div className="pricing__item">
+        {/* <div className="pricing__item">
           <img src={Image3} alt="" className="pricing__img" /> <h3 className="pricing__plan">Basic</h3>
           <p className="pricing__title">A Simple option but powerful to manage your business</p> <p className="pricing__support">Email support</p> <h3 className="price">
             <em>$</em> 9 <span>Month</span>
           </h3>
           <a href="" className="btn">Get Started</a>
-        </div>
+        </div> */}
 
       </div>
     </section>

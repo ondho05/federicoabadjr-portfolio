@@ -13,7 +13,7 @@ const About = () => {
         <img src={Image} alt="" className="about__img" />
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">I am Federico Abad Jr, a junior web developer from Ozamiz City, Misamis Occidental. I have 2 years of experience in web site design and building and customization, but I want to enhance my skill in this career path.</p> 
+            <p className="about__description">I'm Federico Abad Jr. a passionate and driven entry-level software developer eager to embark on a journey of continuous learning and growth in the dynamic world of technology. With a solid foundation in programming languages such as HTML, CSS, Php, and JavaScript, coupled with hands-on experience in building projects during my education, I am excited to apply my skills to real-world challenges.</p> 
             <a href={ExampleDoc} className="btn" download="Federico_Resume" target='_blank'>
               Download CV
               </a>

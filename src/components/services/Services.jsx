@@ -10,21 +10,21 @@ const data = [
     image: Image1,
     title: "Photo Editing",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "",
   },
   {
     id: 2,
     image: Image2,
     title: "Web Browsing",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "",
   },
   {
     id: 3,
     image: Image3,
     title: "Photography",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "",
   },
 ];
 
