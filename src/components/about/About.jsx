@@ -2,7 +2,7 @@ import React from 'react';
 import "./about.css";
 import Image from "../../assets/abadvector.png";
 import AboutBox from './AboutBox';
-import ExampleDoc from "../../assets/Resume.pdf";
+import ExampleDoc from "../../assets/MyResume.pdf";
 
 const About = () => {
   return (
